@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -21,4 +20,8 @@ int knapsack(int wt[], int val[], int W, int n)
 
 int main()
 {
+    int wt[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int val[] = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
+    int W = 4;
+    cout << knapsack(wt, val, W, 10) << endl;
 }
